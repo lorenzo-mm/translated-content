@@ -134,7 +134,7 @@ fetch('https://example.com', {
 })
 ```
 
-Si solo quieres enviar la credenciales si la URL de la petición está en el mismo origen desde donde se llamada el script, añade `credentials: 'same-origin'`.
+Si solo quieres enviar la credenciales si la URL de la petición está en el mismo origen desde donde se llama el script, añade `credentials: 'same-origin'`.
 
 ```js
 // El script fué llamado desde el origen 'https://example.com'
@@ -230,7 +230,7 @@ console.log(myHeaders.getAll("X-Custom-Header")); // [ ]
 
 Algunas de estas operaciones solo serán utiles en {{domxref("ServiceWorker_API","ServiceWorkers")}}, pero estas disponen de una mejor API para manipular `headers`.
 
-Todos los métodosde de `headers` lanzan un `TypeError` si un nombre de cabecera no es un nombre de cabecera HTTP válido. Las operaciones de mutación lanzarán un `TypeError` si hay un guarda inmutable (ver más abajo). Si no, fallan silenciosamente. Por ejemplo:
+Todos los métodos de `headers` lanzan un `TypeError` si un nombre de cabecera no es un nombre de cabecera HTTP válido. Las operaciones de mutación lanzarán un `TypeError` si hay un guarda inmutable (ver más abajo). Si no, fallan silenciosamente. Por ejemplo:
 
 ```js
 var myResponse = Response.error();
