@@ -457,7 +457,7 @@ Para más información vea [Usando motores de plantillas con Express](http://exp
 
 ### Estructura de Archivos
 
-Express no hace asunciones en términos de estructura o que componentes usted usa. Rutas, vistas, archivos estáticos, y otras lógicas de aplicación específica puede vivir en cualquier número de archivos con cualquier estructura de directorio. Mientras que esto es perfectamente posible, se puede tener toda la aplicación en un solo archivo, en _Express_, tipicamente esto tiene sentido al desplegar su aplicacion dentro de archivos basados en función (e.g. administracion de cuentas, blogs, tableros de discusion) y dominio de problema arquitectonico (e.g. modelo, vista or controlador si tu pasas a estar usando una [arquitectura MVC](/es/docs/Web/Apps/Fundamentals/Modern_web_app_architecture/MVC_architecture)).
+Express no hace asunciones en términos de estructura o que componentes usted usa. Rutas, vistas, archivos estáticos, y otras lógicas de aplicación específica puede vivir en cualquier número de archivos con cualquier estructura de directorio. Mientras que esto es perfectamente posible, se puede tener toda la aplicación en un solo archivo, en _Express_, tipicamente esto tiene sentido al desplegar su aplicacion dentro de archivos basados en función (e.g. administracion de cuentas, blogs, tableros de discusion) y dominio de problema arquitectonico (e.g. modelo, vista o controlador si tu pasas a estar usando una [arquitectura MVC](/es/docs/Web/Apps/Fundamentals/Modern_web_app_architecture/MVC_architecture)).
 
 En un tópico posterior usaremos el Generador de Aplicaciones _Express Application Generator_, el que crea un esquelo de una app modular que podemos facilmente extender para crear aplicaciones web.
 
@@ -465,7 +465,7 @@ En un tópico posterior usaremos el Generador de Aplicaciones _Express Applicati
 
 ¡Felicitaciones, ha completado el primer paso en su viaje Express/Node! Ahora debes comprender los principales beneficios de Express y Node, y más o menos cómo se verían las partes principales de una aplicación Express (rutas, middleware, manejo de errores y plantillas). ¡También debe comprender que con Express como un framework unopinionated, la forma en que une estas partes y las bibliotecas que usa dependen en gran medida de usted!
 
-Por supuesto, Express es deliberadamente un un framework de aplicaciones web muy ligero, por lo que gran parte de sus beneficios y potencial proviene de bibliotecas y características de terceros. Lo veremos con más detalle en los siguientes artículos. En nuestro próximo artículo, veremos cómo configurar un entorno de desarrollo de Node, para que pueda comenzar a ver código de Express en acción.
+Por supuesto, Express es deliberadamente un framework de aplicaciones web muy ligero, por lo que gran parte de sus beneficios y potencial proviene de bibliotecas y características de terceros. Lo veremos con más detalle en los siguientes artículos. En nuestro próximo artículo, veremos cómo configurar un entorno de desarrollo de Node, para que pueda comenzar a ver código de Express en acción.
 
 ## Ver también
 
